@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "title": "TravelMate",
+    "image": "https://i.ibb.co.com/ns0yky2c/travel-Mate.png",
+    "downloadCount": "125M",
+    "averageRating": 4.6
+  },
+  {
+    "id": 2,
+    "title": "FoodieSnap",
+    "image": "https://i.ibb.co.com/ns0yky2c/travel-Mate.png",
+    "downloadCount": "82M",
+    "averageRating": 4.3
+  },
+  {
+    "id": 3,
+    "title": "FitTrack Pro",
+    "image": "https://i.ibb.co.com/ns0yky2c/travel-Mate.png",
+    "downloadCount": "23M",
+    "averageRating": 4.8
+  },
+  {
+    "id": 4,
+    "title": "MindEase",
+    "image": "https://i.ibb.co.com/ns0yky2c/travel-Mate.png",
+    "downloadCount": "67M",
+    "averageRating": 4.5
+  },
+  {
+    "id": 5,
+    "title": "PhotoCraft",
+    "image": "https://i.ibb.co.com/ns0yky2c/travel-Mate.png",
+    "downloadCount": "158M",
+    "averageRating": 4.7
+  },
+  {
+    "id": 6,
+    "title": "ShopSmart",
+    "image": "https://i.ibb.co.com/ns0yky2c/travel-Mate.png",
+    "downloadCount": "94M",
+    "averageRating": 4.2
+  },
+  {
+    "id": 7,
+    "title": "Taskify",
+    "image": "https://i.ibb.co.com/ns0yky2c/travel-Mate.png",
+    "downloadCount": "46M",
+    "averageRating": 4.1
+  },
+  {
+    "id": 8,
+    "title": "SoundFlow",
+    "image": "https://i.ibb.co.com/ns0yky2c/travel-Mate.png",
+    "downloadCount": "21M",
+    "averageRating": 4.9
+  }
+]

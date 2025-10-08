@@ -12,7 +12,9 @@ import Home from '../pages/Home/Home';
    errorElement:<ErrorPage></ErrorPage>,
    children:[
     {
-      index: true, 
+      index: true,
+      loader:()=> fetch("trendapp.json"),
+      path:"/" ,
       Component:Home
     }
    ]
