@@ -1,7 +1,9 @@
 import React from 'react';
 import Banner from '../../Components/Banner/Banner';
-import Apps from '../Apps/Apps';
+
 import { useLoaderData } from 'react-router';
+import TrendApps from '../TrendApps/TrendApps';
+
 
 const Home = () => { 
     const data = useLoaderData();
@@ -9,8 +11,13 @@ const Home = () => {
 
     return (
         <div>
-          <Banner></Banner>
-          <Apps data={data}></Apps>
+          <Banner></Banner> 
+
+          <TrendApps data={data}></TrendApps> 
+          
+          
+          
+          
 
             
         </div>

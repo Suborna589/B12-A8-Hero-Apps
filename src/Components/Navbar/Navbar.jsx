@@ -1,13 +1,16 @@
 import React from 'react';
 import logoImg from '../../assets/logo.png'
 import { FaGithub } from "react-icons/fa";
+import { Link } from 'react-router';
 
 const Navbar = () => { 
 
     const links = <>
-    <li className="m-3">Home</li>
-    <li className="m-3">Apps</li>
-    <li className="m-3">Installation </li>
+  <Link to='/'>  <li className="m-3">Home</li></Link>
+   <Link to='/apps'> <li className="m-3">Apps</li></Link>
+    <li className="m-3">Installation </li> 
+
+    
     </>
     return (
        <div className="navbar  ">
@@ -22,7 +25,7 @@ const Navbar = () => {
       {links}
       </ul>
     </div>
-    <img src={logoImg} alt="" className='w-[40px]'/>
+  <Link to='/'>  <img src={logoImg} alt="" className='w-[40px]'/></Link>
     <a className="btn btn-ghost text-xl">HERO.IO</a>
   </div>
   <div className="navbar-center hidden lg:flex">
@@ -31,7 +34,7 @@ const Navbar = () => {
     </ul>
   </div>
   <div className="navbar-end">
-    <a className=" text-white btn bg-linear-to-r from-[#632ee3] to-[#9f62f2]"><FaGithub />Contribute</a>
+    <Link to="https://github.com/Suborna589" className=" text-white btn bg-linear-to-r from-[#632ee3] to-[#9f62f2]"><FaGithub />Contribute</Link>
   </div>
 </div>
     );

@@ -1,11 +1,14 @@
 import React from 'react';
 import downLoad from "../../assets/icon-downloads.png"
 import rating from "../../assets/icon-ratings.png"
+import { Link } from 'react-router';
 
-const App = ({singleApp}) => {
-  const {title,image,downloadCount,averageRating}  = singleApp;
+const TrendApp = ({singleApp}) => {
+  const {title,image,downloads,ratingAvg,id}  = singleApp;
     return (
-       <div className="card bg-base-100 w-96 h-[454px] shadow-sm">
+  <Link to={`/appsDetails/${id}`}>
+
+     <div className="card bg-base-100 w-96 h-[454px] shadow-sm hover:scale-105 transition ease-in-out">
   
     <img
     src={image} className='w-[432px] h-[321px]'
@@ -19,11 +22,11 @@ const App = ({singleApp}) => {
     <div className="flex justify-between mt-4">
    <div className='flex gap-1 rounded-sm p-2 items-center w-[80px] h-8 bg-[#f1f5e8] text-[#00d390]  '>
     <img src={downLoad} className='w-[18px] h-[18px]' alt="" />
-      <span className=" text-base font-medium ">{downloadCount}</span>
+      <span className=" text-base font-medium ">{downloads}</span>
    </div>
    <div className='flex gap-3 rounded-sm p-2 items-center w-[80px] h-8 bg-[#fff0e1] text-[#ff8811]  '>
     <img src={rating} className='w-[18px] h-[18px]' alt="" />
-      <span className=" text-base font-medium ">{averageRating}</span>
+      <span className=" text-base font-medium ">{ratingAvg}</span>
    </div>
 
 
@@ -32,7 +35,15 @@ const App = ({singleApp}) => {
     </div>
   </div>
 </div>
+
+
+
+
+  </Link> 
+  
+
+  
     );
 };
 
-export default App;
+export default TrendApp;

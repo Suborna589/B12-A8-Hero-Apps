@@ -2,57 +2,375 @@
   {
     "id": 1,
     "title": "TravelMate",
+    "companyName": "GlobeTrek Technologies",
     "image": "https://i.ibb.co.com/ns0yky2c/travel-Mate.png",
-    "downloadCount": "125M",
-    "averageRating": 4.6
+    "description": "Plan, book, and explore destinations with ease. TravelMate helps you create personalized itineraries and find the best deals.",
+    "size": 78,
+    "reviews": "25K",
+    "ratingAvg": 4.6,
+    "downloads": "5M",
+    "ratings": [
+      { "name": "1 star", "count": 23000 },
+      { "name": "2 star", "count": 18000 },
+      { "name": "3 star", "count": 45000 },
+      { "name": "4 star", "count": 210000 },
+      { "name": "5 star", "count": 950000 }
+    ]
   },
   {
     "id": 2,
     "title": "FoodieSnap",
-    "image": "https://i.ibb.co.com/ns0yky2c/travel-Mate.png",
-    "downloadCount": "82M",
-    "averageRating": 4.3
+    "companyName": "TastyWave Labs",
+    "image": "https://i.ibb.co.com/7zXQKzN/foodie-app.png",
+    "description": "Discover trending restaurants, share food photos, and get recommendations based on your taste preferences.",
+    "size": 64,
+    "reviews":"82K",
+    "ratingAvg": 4.3,
+    "downloads": "8M",
+    "ratings": [
+      { "name": "1 star", "count": 16000 },
+      { "name": "2 star", "count": 24000 },
+      { "name": "3 star", "count": 72000 },
+      { "name": "4 star", "count": 280000 },
+      { "name": "5 star", "count": 428000 }
+    ]
   },
   {
     "id": 3,
     "title": "FitTrack Pro",
-    "image": "https://i.ibb.co.com/ns0yky2c/travel-Mate.png",
-    "downloadCount": "23M",
-    "averageRating": 4.8
+    "companyName": "ActivePulse Inc.",
+    "image": "https://i.ibb.co.com/gmc1c0b/fitness-app.png",
+    "description": "Track your workouts, monitor calories, and achieve your fitness goals with real-time analytics and AI coaching.",
+    "size": 52,
+    "reviews": "23K",
+    "ratingAvg": 4.8,
+    "downloads": "9M",
+    "ratings": [
+      { "name": "1 star", "count": 5000 },
+      { "name": "2 star", "count": 7000 },
+      { "name": "3 star", "count": 12000 },
+      { "name": "4 star", "count": 54000 },
+      { "name": "5 star", "count": 152000 }
+    ]
   },
   {
     "id": 4,
     "title": "MindEase",
-    "image": "https://i.ibb.co.com/ns0yky2c/travel-Mate.png",
-    "downloadCount": "67M",
-    "averageRating": 4.5
+    "companyName": "CalmMind Studio",
+    "image": "https://i.ibb.co.com/Jmgb3m6/meditation-app.png",
+    "description": "Reduce stress and improve focus with guided meditations, breathing exercises, and daily mindfulness sessions.",
+    "size": 69,
+    "reviews":"67K",
+    "ratingAvg": 4.5,
+    "downloads": "6M",
+    "ratings": [
+      { "name": "1 star", "count": 14000 },
+      { "name": "2 star", "count": 19000 },
+      { "name": "3 star", "count": 45000 },
+      { "name": "4 star", "count": 250000 },
+      { "name": "5 star", "count": 342000 }
+    ]
   },
   {
     "id": 5,
     "title": "PhotoCraft",
-    "image": "https://i.ibb.co.com/ns0yky2c/travel-Mate.png",
-    "downloadCount": "158M",
-    "averageRating": 4.7
+    "companyName": "PixelBlend Co.",
+    "image": "https://i.ibb.co.com/7bs4fsv/photo-edit.png",
+    "description": "Enhance your photos with AI filters, creative overlays, and editing tools designed for professionals and beginners.",
+    "size": 98,
+    "reviews":"15K",
+    "ratingAvg": 4.7,
+    "downloads": "7M",
+    "ratings": [
+      { "name": "1 star", "count": 38000 },
+      { "name": "2 star", "count": 26000 },
+      { "name": "3 star", "count": 68000 },
+      { "name": "4 star", "count": 410000 },
+      { "name": "5 star", "count": 1068000 }
+    ]
   },
   {
     "id": 6,
     "title": "ShopSmart",
-    "image": "https://i.ibb.co.com/ns0yky2c/travel-Mate.png",
-    "downloadCount": "94M",
-    "averageRating": 4.2
+    "companyName": "SavvyCommerce Ltd.",
+    "image": "https://i.ibb.co.com/Z6pxDTN/shopping-app.png",
+    "description": "Compare prices, read reviews, and get the best deals from multiple stores — all in one app.",
+    "size": 84,
+    "reviews": "94K",
+    "ratingAvg": 4.2,
+    "downloads": "9M",
+    "ratings": [
+      { "name": "1 star", "count": 25000 },
+      { "name": "2 star", "count": 34000 },
+      { "name": "3 star", "count": 120000 },
+      { "name": "4 star", "count": 380000 },
+      { "name": "5 star", "count": 381000 }
+    ]
   },
   {
     "id": 7,
     "title": "Taskify",
-    "image": "https://i.ibb.co.com/ns0yky2c/travel-Mate.png",
-    "downloadCount": "46M",
-    "averageRating": 4.1
+    "companyName": "FocusFlow Systems",
+    "image": "https://i.ibb.co.com/hyLrbmJ/task-app.png",
+    "description": "Organize tasks, set reminders, and collaborate with teammates to boost productivity and meet deadlines.",
+    "size": 59,
+    "reviews": "46K",
+    "ratingAvg": 4.1,
+    "downloads": "6M",
+    "ratings": [
+      { "name": "1 star", "count": 14000 },
+      { "name": "2 star", "count": 18000 },
+      { "name": "3 star", "count": 55000 },
+      { "name": "4 star", "count": 160000 },
+      { "name": "5 star", "count": 213000 }
+    ]
   },
   {
     "id": 8,
     "title": "SoundFlow",
-    "image": "https://i.ibb.co.com/ns0yky2c/travel-Mate.png",
-    "downloadCount": "21M",
-    "averageRating": 4.9
+    "companyName": "WaveTune Media",
+    "image": "https://i.ibb.co.com/Qj3v9Yb/music-app.png",
+    "description": "Stream high-quality music, discover trending artists, and enjoy custom playlists made for your mood.",
+    "size": 88,
+    "reviews":"21K",
+    "ratingAvg": 4.9,
+    "downloads": "8M",
+    "ratings": [
+      { "name": "1 star", "count": 2000 },
+      { "name": "2 star", "count": 3000 },
+      { "name": "3 star", "count": 8000 },
+      { "name": "4 star", "count": 47000 },
+      { "name": "5 star", "count": 150000 }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "EcoTrack",
+    "companyName": "GreenFuture Labs",
+    "image": "https://i.ibb.co.com/RNdpzNn/eco-app.png",
+    "description": "Monitor your carbon footprint, learn eco-friendly habits, and join challenges for a sustainable lifestyle.",
+    "size": 47,
+    "reviews": "53K",
+    "ratingAvg": 4.4,
+    "downloads": "5M",
+    "ratings": [
+      { "name": "1 star", "count": 12000 },
+      { "name": "2 star", "count": 19000 },
+      { "name": "3 star", "count": 61000 },
+      { "name": "4 star", "count": 210000 },
+      { "name": "5 star", "count": 228000 }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Learnify",
+    "companyName": "EduVerse Technologies",
+    "image": "https://i.ibb.co.com/n3mGhB1/learn-app.png",
+    "description": "Access thousands of courses across different fields and enhance your skills through interactive learning.",
+    "size": 120,
+    "reviews": "98K",
+    "ratingAvg": 4.6,
+    "downloads": "9M",
+    "ratings": [
+      { "name": "1 star", "count": 22000 },
+      { "name": "2 star", "count": 30000 },
+      { "name": "3 star", "count": 80000 },
+      { "name": "4 star", "count": 310000 },
+      { "name": "5 star", "count": 538000 }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Weatherly",
+    "companyName": "SkyCast Labs",
+    "image": "https://i.ibb.co.com/svMBfnb/weather-app.png",
+    "description": "Stay prepared with accurate weather forecasts, alerts, and live radar for your location.",
+    "size": 42,
+    "reviews": "72K",
+    "ratingAvg": 4.3,
+    "downloads": "7M",
+    "ratings": [
+      { "name": "1 star", "count": 16000 },
+      { "name": "2 star", "count": 25000 },
+      { "name": "3 star", "count": 73000 },
+      { "name": "4 star", "count": 260000 },
+      { "name": "5 star", "count": 346000 }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "NoteNest",
+    "companyName": "QuickSync Tools",
+    "image": "https://i.ibb.co.com/DfyhW8X/note-app.png",
+    "description": "Keep your notes, ideas, and reminders organized across devices with smart syncing and cloud backup.",
+    "size": 35,
+    "reviews":"68K",
+    "ratingAvg": 4.4,
+    "downloads": "6M",
+    "ratings": [
+      { "name": "1 star", "count": 14000 },
+      { "name": "2 star", "count": 17000 },
+      { "name": "3 star", "count": 60000 },
+      { "name": "4 star", "count": 240000 },
+      { "name": "5 star", "count": 349000 }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "RideNow",
+    "companyName": "UrbanMove Ltd.",
+    "image": "https://i.ibb.co.com/6DH4Ttr/ride-app.png",
+    "description": "Book rides instantly, track your driver in real-time, and enjoy seamless payment options.",
+    "size": 91,
+    "reviews": "11K",
+    "ratingAvg": 4.5,
+    "downloads": "11M",
+    "ratings": [
+      { "name": "1 star", "count": 28000 },
+      { "name": "2 star", "count": 30000 },
+      { "name": "3 star", "count": 86000 },
+      { "name": "4 star", "count": 380000 },
+      { "name": "5 star", "count": 630000 }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "HealthScan",
+    "companyName": "MediTech Analytics",
+    "image": "https://i.ibb.co.com/pwKd3Lb/health-app.png",
+    "description": "Track vitals, get AI-based health insights, and connect with medical professionals remotely.",
+    "size": 76,
+    "reviews":"56K",
+    "ratingAvg": 4.7,
+    "downloads": "6M",
+    "ratings": [
+      { "name": "1 star", "count": 9000 },
+      { "name": "2 star", "count": 12000 },
+      { "name": "3 star", "count": 31000 },
+      { "name": "4 star", "count": 200000 },
+      { "name": "5 star", "count": 308000 }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "PetPal",
+    "companyName": "FurryFriends Co.",
+    "image": "https://i.ibb.co.com/tJYv4gz/pet-app.png",
+    "description": "Connect with pet lovers, find vets nearby, and get daily tips for keeping your pets happy and healthy.",
+    "size": 57,
+    "reviews": "43K",
+    "ratingAvg": 4.6,
+    "downloads": "4M",
+    "ratings": [
+      { "name": "1 star", "count": 8000 },
+      { "name": "2 star", "count": 10000 },
+      { "name": "3 star", "count": 28000 },
+      { "name": "4 star", "count": 160000 },
+      { "name": "5 star", "count": 224000 }
+    ]
+  }, 
+
+
+
+
+  {
+    "id": 16,
+    "title": "Snapseed",
+    "companyName": "Google LLC",
+    "image": "https://play-lh.googleusercontent.com/6bQknSTzv5dz-VE8WzWgP3yX1TTshM1WQZgrKeN4G7WnYqUw7bRWpHYvjC8P8bF_oQ=w480-h960",
+    "description": "Snapseed is a professional photo editing app developed by Google offering a wide range of tools and filters for high-quality image enhancement.",
+    "size": 32,
+    "reviews":"159K",
+    "ratingAvg": 4.5,
+    "downloads": "9M",
+    "ratings": [
+      { "name": "1 star", "count": 500000 },
+      { "name": "2 star", "count": 700000 },
+      { "name": "3 star", "count": 1200000 },
+      { "name": "4 star", "count": 3100000 },
+      { "name": "5 star", "count": 10400000 }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Spotify",
+    "companyName": "Spotify AB",
+    "image": "https://play-lh.googleusercontent.com/qBC4xK4CNgpUOSN_ItuI3Zk96IhFh3p8xEJtsqldk4KJS-iyPHHjT5NoCj6jK7SopB4=w480-h960",
+    "description": "Spotify lets you listen to millions of songs, podcasts, and playlists across all your devices with personalized recommendations.",
+    "size": 64,
+    "reviews":"336K",
+    "ratingAvg": 4.4,
+    "downloads": "10M",
+    "ratings": [
+      { "name": "1 star", "count": 1200000 },
+      { "name": "2 star", "count": 2100000 },
+      { "name": "3 star", "count": 3900000 },
+      { "name": "4 star", "count": 7800000 },
+      { "name": "5 star", "count": 18500000 }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Canva",
+    "companyName": "Canva Pty Ltd",
+    "image": "https://play-lh.googleusercontent.com/KCo9xEsl9hWcUOudJYxZf7hz6zBpa6SdPg47tToXgfGxL_4LQ25dRAQ4Eo3gB4R-1R0=w480-h960",
+    "description": "Canva is a graphic design platform that allows users to create social media graphics, presentations, posters, and other visual content easily.",
+    "size": 42,
+    "reviews":"155K",
+    "ratingAvg": 4.8,
+    "downloads": "5M",
+    "ratings": [
+      { "name": "1 star", "count": 350000 },
+      { "name": "2 star", "count": 500000 },
+      { "name": "3 star", "count": 900000 },
+      { "name": "4 star", "count": 2800000 },
+      { "name": "5 star", "count": 10900000 }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "LinkedIn",
+    "companyName": "LinkedIn Corporation",
+    "image": "https://play-lh.googleusercontent.com/0xk9wX0dI7QwT6Ewt0EahmQPL1O_wmcv2Z7svGdxMQLB2Er9l1rZCwM9PftzCVQeFQ=w480-h960",
+    "description": "LinkedIn is a professional networking app where users can connect, find jobs, and share professional achievements and insights.",
+    "size": 58,
+    "reviews": "128K",
+    "ratingAvg": 4.3,
+    "downloads": "10M",
+    "ratings": [
+      { "name": "1 star", "count": 600000 },
+      { "name": "2 star", "count": 800000 },
+      { "name": "3 star", "count": 1500000 },
+      { "name": "4 star", "count": 3000000 },
+      { "name": "5 star", "count": 6900000 }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Pinterest",
+    "companyName": "Pinterest, Inc.",
+    "image": "https://play-lh.googleusercontent.com/Q7p4k8jz4fGk0y0TWrR1qNfP0mMLczWeeGo6BQetVhPvK0oPOiylUkcB9qQdrpDg3A=w480-h960",
+    "description": "Pinterest helps users discover and save creative ideas, recipes, home design inspiration, fashion, and lifestyle tips on visual boards.",
+    "size": 35,
+    "reviews": "107K",
+    "ratingAvg": 4.6,
+    "downloads": "10M",
+    "ratings": [
+      { "name": "1 star", "count": 400000 },
+      { "name": "2 star", "count": 600000 },
+      { "name": "3 star", "count": 1000000 },
+      { "name": "4 star", "count": 2800000 },
+      { "name": "5 star", "count": 5900000 }
+    ]
   }
+
+
+
+
+
+
+
+
+
+
 ]
