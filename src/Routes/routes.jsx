@@ -5,6 +5,7 @@ import ErrorPage from '../pages/ErrorPage/ErrorPage';
 import Home from '../pages/Home/Home';
 import Apps from '../pages/Apps/Apps';
 import AppsDetails from '../pages/AppsDetails/AppsDetails';
+import Installation from '../pages/Installation/Installation';
 
 
  export const router = createBrowserRouter([
@@ -28,7 +29,12 @@ import AppsDetails from '../pages/AppsDetails/AppsDetails';
       path:'/appsDetails/:id',
       loader:()=> fetch("./trendapp.json"),
       Component:AppsDetails
-    },
+    }, 
+
+    {
+      path:'/installation',
+      Component:Installation
+    }
    ]
   },
 ]);
