@@ -12,7 +12,6 @@ const Home = () => {
     return (
         <div>
           <Banner></Banner> 
-
           <TrendApps data={data}></TrendApps> 
           
           

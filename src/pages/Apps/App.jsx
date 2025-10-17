@@ -1,12 +1,17 @@
 import React from 'react';
 import downLoad from "../../assets/icon-downloads.png"
 import rating from "../../assets/icon-ratings.png"
+import { Link } from 'react-router';
 
 const App = ({singleApp}) => {
 
-    const {title,image,downloads,ratingAvg,} =singleApp
+    const {title,image,downloads,ratingAvg,id} =singleApp
     return (
-          <div className="card bg-base-100 w-96 h-[454px] shadow-sm hover:scale-105 transition ease-in-out">
+         
+
+       <Link to={`/appsDetails/${id}`}>
+
+         <div className="card bg-base-100 w-96 h-[454px] shadow-sm hover:scale-105 transition ease-in-out">
          
            <img
            src={image} className='w-[432px] h-[321px]'
@@ -32,7 +37,9 @@ const App = ({singleApp}) => {
           
            </div>
          </div>
-       </div>
+       </div> 
+
+       </Link>
     );
 };
 
