@@ -16,18 +16,18 @@ import Installation from '../pages/Installation/Installation';
    children:[
     {
       index: true,
-      loader:()=> fetch("trendapp.json"),
+      loader:()=> fetch("../trendapp.json"),
       path:"/" ,
       Component:Home
     },
     {
-      loader:()=> fetch("trendapp.json"),
+      loader:()=> fetch("../trendapp.json"),
       path:'/apps',
       Component:Apps
     },
     {
       path:'/appsDetails/:id',
-      loader:()=> fetch("./trendapp.json"),
+      loader:()=> fetch("../trendapp.json"),
       Component:AppsDetails
     }, 
 

@@ -25,7 +25,7 @@ const Apps = () => {
              <h1 className='text-xl font-medium'> ({searchApps.length}) Apps Found </h1>
              <label className="input">
            
-             <input value={search} onChange={(e) => setSearch (e.target.value)} type="search" placeholder="Search Apps" />
+             <input value={search} onChange={(e) => setSearch(e.target.value)} type="search"  placeholder="Search Apps" />
              </label>
            </div>
 
